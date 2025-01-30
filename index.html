@@ -24,26 +24,41 @@
     <!-- header section -->
     <header>
         <!-- navbar -->
-        <nav class="container mx-auto mt-7">
-            <div class="flex justify-between items-center">
-                <div><img src="./c2-assets/logo-header.png" alt=""></div>
-
+        <nav class="container mx-auto md:mt-7 mb-24 relative">
+            <div class="space-y-1 absolute right-0 p-3 mt-4 lg:hidden">
+                <div class="w-9 h-1 rounded-sm bg-[#179800]"></div>
+                <div class="w-9 h-1 rounded-sm bg-[#179800]"></div>
+                <div class="w-9 h-1 rounded-sm bg-[#179800]"></div>
+            </div>
+            <div class="lg:flex justify-between items-center">
+                <div class="hidden sm:block">
+                    <a href=""><img src="./c2-assets/logo-header.png" alt=""></a>
+                </div>
+                <div class="lg:hidden p-3">
+                    <a href=""><img src="./c2-assets/logo responsive.png" alt=""></a>
+                </div>
                 <div class="flex items-center">
-                    <div class="mr-48 space-x-8 font-semibold"><a href="">Product</a><a href="">Services</a><a href="">Contact Us</a></div>
-                    <div class="mr-8 space-x-4">
+                    <div class="mr-48 space-x-8 font-semibold hidden sm:block"><a href="">Product</a><a
+                            href="">Services</a><a href="">Contact Us</a></div>
+                    <div class="mr-8 space-x-4 hidden sm:block">
                         <i class="fa-solid fa-magnifying-glass"></i>
                         <i class="fa-solid fa-cart-shopping"></i>
                     </div>
-                    <div class="space-x-2">
+                    <div class="space-x-2 hidden sm:block">
                         <button class="btn btn-outline btn-success w-28 text-black text-[20px]">Login</button>
                         <button class="btn btn-success text-white w-28 text-[20px] bg-[#179800]">Register</button>
                     </div>
                 </div>
             </div>
+            <div class="border-b border-[#179800] lg:hidden"></div>
         </nav>
         <!-- hero hero section -->
-        <section>
-
+        <section class="text-center justify-items-center space-y-9 bg-gradient-to-t from-[#EFEBE3]">
+            <h1 class="text-5xl px lg:text-6xl font-semibold">Freshness <span class="text-[#179800]">You Can <br>
+                    Count</span> On, Prices You’ll Love!</h1>
+            <p class="text-[20px]">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>
+                staples, we’ve got you covered every day!</p>
+            <img src="./c2-assets/hero-vegetables.png" alt="">
         </section>
     </header>
     <main>
