@@ -1,0 +1,14 @@
+.hero-section > .hero-title > span{
+    background: linear-gradient(to right, #179800, rgb(228, 213, 1), rgb(235, 180, 1), rgb(226, 204, 1), #179800 );
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 5s linear infinite;
+}
+
+@keyframes animate-gradient{
+    to{
+        background-position: 200%;
+    }
+}

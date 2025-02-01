@@ -16,6 +16,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./Style/style.css">
     <title>Nature's Platter</title>
     <style>
         .sora {
@@ -36,38 +37,40 @@
     <header class="mb-24">
         <!-- navbar -->
         <nav class="container mx-auto md:mt-7 mb-24 relative">
-            <div class="space-y-1 absolute right-0 p-3 mt-4 lg:hidden">
+            <div class="space-y-1 absolute right-0 p-3 mt-4 md:hidden">
                 <div class="w-9 h-1 rounded-sm bg-[#179800]"></div>
                 <div class="w-9 h-1 rounded-sm bg-[#179800]"></div>
                 <div class="w-9 h-1 rounded-sm bg-[#179800]"></div>
             </div>
             <div class="lg:flex justify-between items-center">
-                <div class="hidden sm:block">
+                <div class="hidden lg:block">
                     <a href=""><img src="./c2-assets/logo-header.png" alt=""></a>
                 </div>
                 <div class="lg:hidden p-3">
                     <a href=""><img src="./c2-assets/logo responsive.png" alt=""></a>
                 </div>
                 <div class="flex items-center">
-                    <div class="mr-48 space-x-8 font-semibold hidden sm:block"><a href="">Product</a><a
+                    <div class="mr-48 space-x-8 font-semibold hidden md:block"><a href="">Product</a><a
                             href="">Services</a><a href="">Contact Us</a></div>
-                    <div class="mr-8 space-x-4 hidden sm:block">
+                    <div class="mr-8 space-x-4 hidden lg:block">
                         <i class="fa-solid fa-magnifying-glass"></i>
                         <i class="fa-solid fa-cart-shopping"></i>
                     </div>
-                    <div class="space-x-2 hidden sm:block">
+                    <div class="space-x-2 hidden md:block">
                         <button class="btn btn-outline btn-success w-28 text-black text-[20px]">Login</button>
                         <button class="btn btn-success text-white w-28 text-[20px] bg-[#179800]">Register</button>
                     </div>
                 </div>
             </div>
-            <div class="border-b border-[#179800] lg:hidden"></div>
+            <div class="border-b border-[#179800] md:hidden"></div>
         </nav>
         <!-- hero hero section -->
-        <section class="text-center justify-items-center space-y-9 bg-gradient-to-t from-[#EFEBE3]">
-            <h1 class="text-[45px] px lg:text-6xl font-semibold">Freshness <span class="text-[#179800]">You Can <br>
-                    Count</span> On, Prices You’ll Love!</h1>
-            <p class="text[18px] lg:text-[20px]">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>
+        <section class="hero-section text-center justify-items-center space-y-9 bg-gradient-to-t from-[#EFEBE3]">
+            <h1 class="hero-title text-[45px] px lg:text-6xl font-semibold">Freshness <span
+                    class="text-[#179800] text-[55px] lg:text-7xl font-bold">You Can Count</span> On, <br> Prices You’ll
+                Love!</h1>
+            <p class="text[16px] lg:text-[20px]">Shop your daily essentials at unbeatable prices. From fresh produce to
+                pantry <br>
                 staples, we’ve got you covered every day!</p>
             <img src="./c2-assets/hero-vegetables.png" alt="">
         </section>
@@ -112,7 +115,7 @@
                 <h1 class="text-4xl text-[#179800] font-semibold pt-36 pb-16 pl-6 lg:pl-0">Popular Products</h1>
                 <div class="md:flex justify-items-center gap-5 pb-12">
                     <div
-                        class="h-[402px] w-[402px] lg:w-[424px] bg-gradient-to-br from-[#4edb36] to-green-50 relative pl-6 rounded-lg mb-8 lg:mb-0">
+                        class="h-[402px] w-[402px] lg:w-[424px] bg-gradient-to-br from-[#4edb36] to-green-50 relative pl-6 rounded-lg mb-8 lg:mb-0 shadow-lg">
                         <h2 class="text-4xl font-semibold text-white pt-10">30% off</h2>
                         <p class="py-7 font-semibold">Special discount! Save big on your <br> favorite products. Hurry!
                         </p>
@@ -121,7 +124,7 @@
                     </div>
                     <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-5">
                         <div
-                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5">
+                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5 shadow-lg">
                             <div><img class="h-16 lg:h-[86px]" src="./c2-assets/Group 16.png" alt=""></div>
                             <div>
                                 <div class="flex items-center gap-2 ">
@@ -133,7 +136,7 @@
                             </div>
                         </div>
                         <div
-                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5">
+                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5 shadow-lg">
                             <div><img class="h-16 lg:h-[86px]" src="./c2-assets/Group 16.png" alt=""></div>
                             <div>
                                 <div class="flex items-center gap-2 ">
@@ -145,7 +148,7 @@
                             </div>
                         </div>
                         <div
-                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5">
+                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5 shadow-lg">
                             <div><img class="h-16 lg:h-[86px]" src="./c2-assets/Group 16.png" alt=""></div>
                             <div>
                                 <div class="flex items-center gap-2 ">
@@ -157,7 +160,7 @@
                             </div>
                         </div>
                         <div
-                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5">
+                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5 shadow-lg">
                             <div><img class="h-16 lg:h-[86px]" src="./c2-assets/Group 16.png" alt=""></div>
                             <div>
                                 <div class="flex items-center gap-2 ">
@@ -169,7 +172,7 @@
                             </div>
                         </div>
                         <div
-                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5">
+                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5 shadow-lg">
                             <div><img class="h-16 lg:h-[86px]" src="./c2-assets/Group 16 (1).png" alt=""></div>
                             <div>
                                 <div class="flex items-center gap-2 ">
@@ -181,7 +184,7 @@
                             </div>
                         </div>
                         <div
-                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5">
+                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5 shadow-lg">
                             <div><img class="h-16 lg:h-[86px]" src="./c2-assets/Group 16 (1).png" alt=""></div>
                             <div>
                                 <div class="flex items-center gap-2 ">
@@ -193,7 +196,7 @@
                             </div>
                         </div>
                         <div
-                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5">
+                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5 shadow-lg">
                             <div><img class="h-16 lg:h-[86px]" src="./c2-assets/Group 16 (1).png" alt=""></div>
                             <div>
                                 <div class="flex items-center gap-2 ">
@@ -205,7 +208,7 @@
                             </div>
                         </div>
                         <div
-                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5">
+                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5 shadow-lg">
                             <div><img class="h-16 lg:h-[86px]" src="./c2-assets/Group 16 (1).png" alt=""></div>
                             <div>
                                 <div class="flex items-center gap-2 ">
@@ -217,7 +220,7 @@
                             </div>
                         </div>
                         <div
-                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5">
+                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5 shadow-lg">
                             <div><img class="h-16 lg:h-[86px]" src="./c2-assets/Group 16 (2).png" alt=""></div>
                             <div>
                                 <div class="flex items-center gap-2 ">
@@ -229,7 +232,7 @@
                             </div>
                         </div>
                         <div
-                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5">
+                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5 shadow-lg">
                             <div><img class="h-16 lg:h-[86px]" src="./c2-assets/Group 16 (2).png" alt=""></div>
                             <div>
                                 <div class="flex items-center gap-2 ">
@@ -241,7 +244,7 @@
                             </div>
                         </div>
                         <div
-                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5">
+                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5 shadow-lg">
                             <div><img class="h-16 lg:h-[86px]" src="./c2-assets/Group 16 (2).png" alt=""></div>
                             <div>
                                 <div class="flex items-center gap-2 ">
@@ -253,7 +256,7 @@
                             </div>
                         </div>
                         <div
-                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5">
+                            class="flex items-center space-x-4 h-[88px] lg:h-auto w-auto bg-white rounded-lg py-1 lg:py-4 pl-3 lg:pl-4 lg:pr-5 shadow-lg">
                             <div><img class="h-16 lg:h-[86px]" src="./c2-assets/Group 16 (2).png" alt=""></div>
                             <div>
                                 <div class="flex items-center gap-2 ">
@@ -308,53 +311,62 @@
             </div>
         </section>
         <!-- FAQ section -->
-         <section class="mb-96 container mx-auto">
+        <section class="mb-96 container mx-auto">
             <h1 class="text-4xl text-[#179800] font-semibold mb-12 px-5 lg:px-0">Common Questions</h1>
             <div class="join join-vertical w-[95%] lg:w-full ml-3 lg:ml-0">
                 <div class="collapse collapse-arrow join-item border-base-300 border">
-                  <input type="radio" name="my-accordion-4" checked="checked" />
-                  <div class="collapse-title text-xl font-medium">Q. What are your delivery hours?</div>
-                  <div class="collapse-content">
-                    <p>We deliver from 7.30 am to 11 pm every day. You can choose from available slots to find something that is convenient for you.</p>
-                  </div>
+                    <input type="radio" name="my-accordion-4" checked="checked" />
+                    <div class="collapse-title text-xl font-medium">Q. What are your delivery hours?</div>
+                    <div class="collapse-content">
+                        <p>We deliver from 7.30 am to 11 pm every day. You can choose from available slots to find
+                            something that is convenient for you.</p>
+                    </div>
                 </div>
                 <div class="collapse collapse-arrow join-item border-base-300 border">
-                  <input type="radio" name="my-accordion-4" />
-                  <div class="collapse-title text-xl font-medium">Q. What is your policy on refunds?</div>
-                  <div class="collapse-content">
-                    <p>We offer a refund or return policy of seven (7) days on most unopened or unspoilt packaged products.
-                       <br>
-                       <br>
-                        A. For perishable products such as milk, fruits, and fresh vegetables, we have a 1 (one) day return policy.
-                        <br>
-                        B. Diaper items must be returned for refunds before 10% or 3 pieces (whichever comes first) have been used.
-                        <br>
-                        C. Certain products; Face Mask, Disposable Vinyl Gloves, Alcohol Pads, and Covid Testing Kits are not acceptable for refund or return either opened or unopened.
-                    </p>
-                  </div>
+                    <input type="radio" name="my-accordion-4" />
+                    <div class="collapse-title text-xl font-medium">Q. What is your policy on refunds?</div>
+                    <div class="collapse-content">
+                        <p>We offer a refund or return policy of seven (7) days on most unopened or unspoilt packaged
+                            products.
+                            <br>
+                            <br>
+                            A. For perishable products such as milk, fruits, and fresh vegetables, we have a 1 (one) day
+                            return policy.
+                            <br>
+                            B. Diaper items must be returned for refunds before 10% or 3 pieces (whichever comes first)
+                            have been used.
+                            <br>
+                            C. Certain products; Face Mask, Disposable Vinyl Gloves, Alcohol Pads, and Covid Testing
+                            Kits are not acceptable for refund or return either opened or unopened.
+                        </p>
+                    </div>
                 </div>
                 <div class="collapse collapse-arrow join-item border-base-300 border">
-                  <input type="radio" name="my-accordion-4" />
-                  <div class="collapse-title text-xl font-medium">Q. What about the prices?</div>
-                  <div class="collapse-content">
-                    <p>Our prices are our own but we try our best to offer them to you at or below market prices. Our prices are the same as the local market and we are working hard to get them even lower! If you feel that any product is priced unfairly, please let us know.</p>
-                  </div>
+                    <input type="radio" name="my-accordion-4" />
+                    <div class="collapse-title text-xl font-medium">Q. What about the prices?</div>
+                    <div class="collapse-content">
+                        <p>Our prices are our own but we try our best to offer them to you at or below market prices.
+                            Our prices are the same as the local market and we are working hard to get them even lower!
+                            If you feel that any product is priced unfairly, please let us know.</p>
+                    </div>
                 </div>
                 <div class="collapse collapse-arrow join-item border-base-300 border">
                     <input type="radio" name="my-accordion-4" />
                     <div class="collapse-title text-xl font-medium">Q. Do you serve my area?</div>
                     <div class="collapse-content">
-                      <p>We are currently serving in three big cities of Bangladesh including Dhaka, Chattogram, Jashore.</p>
+                        <p>We are currently serving in three big cities of Bangladesh including Dhaka, Chattogram,
+                            Jashore.</p>
                     </div>
-                  </div>
-              </div>
-         </section>
+                </div>
+            </div>
+        </section>
 
     </main>
     <!-- footer section -->
-    <footer class="bg-[#179800] grid grid-cols-1 lg:grid-cols-3 justify-between pl-6 lg:pl-60 pt-[390px] lg:pt-[320px] pb-20 relative poppins-regular">
+    <footer
+        class="bg-[#179800] grid grid-cols-1 lg:grid-cols-3 justify-between pl-6 lg:pl-60 pt-[390px] lg:pt-[320px] pb-20 relative poppins-regular">
         <section
-            class="w-11/12 mx-auto rounded-xl bg-[#EFEBE3] lg:flex items-center lg:w-[1410px] absolute left-5 lg:left-60 -top-80 lg:-top-60">
+            class="w-11/12 mx-auto rounded-xl bg-[#EFEBE3] lg:flex items-center lg:w-[1410px] absolute left-5 lg:left-60 -top-80 lg:-top-60 shadow-2xl">
             <div class="py-14 px-24"><img src="./c2-assets/vegetable-busket.png" alt=""></div>
             <div class="space-y-8 text-center lg:text-left pb-10 lg:pb-0">
                 <h1 class="text-4xl lg:text-5xl font-semibold text-[#179800] lg:text-black">Get Grocery News!</h1>
@@ -367,7 +379,8 @@
         </section>
         <div>
             <img src="./c2-assets/logo-footer.png" alt="">
-            <p class="text-[#ffffffbd] text-[20px] mt-4">Discover a world of treats, toys, and <br> essentials handpicked
+            <p class="text-[#ffffffbd] text-[20px] mt-4">Discover a world of treats, toys, and <br> essentials
+                handpicked
                 for your furry <br> friends</p>
         </div>
         <div class="text-[#ffffffbd] flex flex-col gap-6 lg:ml-8 mt-14 lg:mt-0 text-[20px]">
